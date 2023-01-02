@@ -2123,3 +2123,403 @@ button.slick-arrow svg {
 .p-m-b{
     margin-top: 65px;
 }
+
+/*-------------------------------------------------------------------------------------
+       Home 2
+---------------------------------------------------------------------------------------*/
+.home-2__topbar{
+    background: #061028;
+}
+.home-2__topbar .info-wrapper{
+    display: flex;
+    align-items: center;
+}
+.home-2__topbar .meta-wrapper{
+    margin-right: 36px;
+}
+.home-2__topbar .meta-wrapper:last-child{
+    margin-right: 0;
+}
+.home-2__topbar .meta-wrapper svg{
+    margin-right: 11px;
+}
+.home-2__topbar .meta-wrapper svg.rotate{
+    transform: rotate(-36deg);
+}
+.home-2__topbar .meta-wrapper svg, 
+.home-2__topbar .meta-wrapper span{
+    color: #fff;
+}
+.home-2__topbar .meta-wrapper span{
+    font-size: 14px;
+}
+.home-2__topbar .meta-wrapper.mr-19{
+    margin-right: 19px;
+}
+.home-2__topbar .social-links ul{
+    display: flex;
+}
+
+.home-2__topbar .social-links ul li{
+    margin-right: 21px;
+}
+.home-2__topbar .social-links ul li:last-child{
+    margin-right: 0;
+}
+.home-2__topbar .meta-wrapper .header-cta{
+    background: #0D7DFC;
+    display: inline-block;
+    padding: 17px 39px;
+}
+.home-2__topbar .meta-wrapper .header-cta p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.home-2__topbar .meta-wrapper .header-cta:hover{
+    background: #0058bd;
+    cursor: pointer;
+    transition: .3s linear all;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Header
+---------------------------------------------------------------------------------------*/
+.skew-div-right{
+    position: relative;
+}
+.skew-div-right::after{
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 177%;
+    width: 164px;
+    right: -74px;
+    bottom: -38%;
+    z-index: 999;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-35deg, 0deg);
+}
+.skew-div-right .site-logo a img{
+    position: relative;
+    z-index: 999999;
+}
+.skew-div{
+    background: #061028;
+    position: relative;
+}
+.skew-div::after{
+    content: '';
+    position: absolute;
+    background: #061028;
+    height: 100%;
+    width: 74px;
+    right: -74px;
+}
+.skew-div ul li a{
+    color: #fff;
+}
+
+.skew-div ul li ul.submenu li a{
+    color: #061028;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Hero
+---------------------------------------------------------------------------------------*/
+.home-2 .hero-bg{
+    background: #061028;
+    position: relative;
+}
+.home-2 .hero-bg .home-2-shape{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.home-2 .hero-bg .hero-text{
+    padding: 210px 103px 209px 81px;
+    position: relative;
+    z-index: 999999;
+}
+.home-2 .hero-bg .hero-text span{
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 55px;
+}
+.home-2 .hero-bg .hero-text span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    background: #fff;
+    height: 2px;
+    width:40px;
+}
+.home-2 .hero-bg .hero-text h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.home-2 .hero-bg .hero-cta,
+.home-2-about .hero-cta,
+.home-2-cta .hero-cta{
+    background: #0D7DFC;
+    display: inline-block;
+    padding: 17px 39px; 
+    color: #fff;
+}
+.home-2 .hero-bg .hero-cta:hover,
+.home-2-about .hero-cta:hover
+.home-2-cta .hero-cta:hover{
+    background: #0058bd;
+    cursor: pointer;
+    transition: .3s linear all;
+}
+.home-2 .no-padding{
+    padding: 0;
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+}
+.hero-image{
+    position: relative;
+    height: 100%;
+}
+.home-2 .hero-image:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #061028;
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+}
+.home-2 .play-btn{
+    position: absolute;
+    top: 50%;
+    left: -5%;
+}
+.home-2 .play-btn .pulse{
+    margin-left: 0;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Counter
+---------------------------------------------------------------------------------------*/
+.home-2-counter{
+    margin: 135px 0 67px;
+}
+
+.home-2-counter .single-counter iconify-icon{
+    background: #EEF6FF;
+    color: #0D7DFC;
+    font-size: 35px;
+    padding: 14px;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 5px;
+}
+.home-2-counter .single-counter h3{
+    font-size: 35px;
+    color: #061028;
+    font-weight: 600;
+}
+.home-2-counter .single-counter p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 About
+---------------------------------------------------------------------------------------*/
+.home-2-about{
+    padding: 67px 0;
+}
+.home-2-section-title .sub-heading p{
+    position: relative;
+    margin-left: 0;
+    padding-left: 55px;
+}
+.home-2-section-title .sub-heading p:before{
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    content: '';
+    background: #0D7DFC;
+    height: 2px;
+    width: 40px;
+}
+.home-2-abt-text{
+    margin-top: 10px;
+}
+.abt-highlight{
+    background: url('../images/abt-highlight-bg.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 23px 42px;
+    margin: 20px 0;
+}
+.single-highlight{
+    display: flex;
+    align-items: center;
+}
+.single-highlight:last-child{
+    margin-left: 72px;
+}
+.single-highlight span{
+    font-size: 35px;
+    font-weight: 700;
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0D7DFC;
+}
+.single-highlight h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.home-2-abt-img img{
+    width: 100%;
+}
+.home-2-abt-img{
+    position: relative;
+    height: 100%;
+}
+.home-2-abt-img:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #061028;
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+}
+.home-2-about .quote{
+    background: #061028;
+    left: 7%;
+    bottom: 4%;
+    top: inherit;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Cta
+---------------------------------------------------------------------------------------*/
+.home-2-cta{
+    background: url('../images/home-2-cta-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 76px 0;
+    margin: 67px 0;
+}
+
+.cta-text h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.cta-text p{
+    color: #fff;
+}
+.home-2-cta .hero-cta{
+    padding: 17px 58px;
+}
+.end-justify{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Facilities
+---------------------------------------------------------------------------------------*/
+.home-2-facilities{
+    padding: 67px 0;
+}
+.home-2-facilities .mt-65{
+    margin-top: 65px;
+}
+.single-facility{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 55px rgba(52, 62, 97, 0.06);
+    padding: 33px 32px;
+}
+.single-facility iconify-icon{
+    color: #0D7DFC;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+.single-facility h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #031031;
+}
+.single-facility p{
+    font-size: 15px;
+    margin-top: 7px;
+}
+.single-facility a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.115em;
+    color: #031031;
+    margin-top: 12px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Portfolio
+---------------------------------------------------------------------------------------*/
+.home-2-portfolio .portfolio-images{
+    position: relative;
+}
+.home-2-portfolio .portfolio-hovered{
+    position: absolute;
+    background: #061028;
+    opacity: .6;
+    height: 100%;
+    top: 0;
+    left: auto;
+    width: 90%;
+}
+.home-2-portfolio .portfolio-hovered .hover-text{
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25%;    
+}
+.home-2-portfolio .portfolio-hovered .hover-text .icon-arrow{
+    left: 13%;
+    top: 135%;
+    margin-top: 0;
+}
+.home-2-portfolio .portfolio-hovered h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-left: 29px;
+
+}
+.home-2-portfolio .portfolio-hovered h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 29px;
+}
