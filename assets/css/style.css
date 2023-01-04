@@ -2482,10 +2482,13 @@ button.slick-arrow svg {
 /*-------------------------------------------------------------------------------------
        Home 2 Portfolio
 ---------------------------------------------------------------------------------------*/
+.home-2-portfolio{
+    padding-bottom: 67px;
+}
 .home-2-portfolio .portfolio-images{
     position: relative;
 }
-.home-2-portfolio .portfolio-hovered{
+.home-2-portfolio .portfolio-hovered .port-overlay{
     position: absolute;
     background: #061028;
     opacity: .6;
@@ -2502,6 +2505,27 @@ button.slick-arrow svg {
     position: absolute;
     bottom: 25%;    
 }
+
+.home-2-portfolio .portfolio-hovered .port-overlay{
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear all;
+}
+
+.home-2-portfolio .portfolio-hovered .hover-text{
+    visibility: hidden;
+    transition: .3s linear ease-in-out;
+}
+
+.home-2-portfolio .single-portfolio:hover .port-overlay{
+    visibility: visible;
+    opacity: .6;
+}
+
+.home-2-portfolio .single-portfolio:hover .hover-text{
+    visibility: visible;
+}
+
 .home-2-portfolio .portfolio-hovered .hover-text .icon-arrow{
     left: 13%;
     top: 135%;
@@ -2522,4 +2546,237 @@ button.slick-arrow svg {
     font-weight: 600;
     color: #fff;
     margin-left: 29px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Portfolio
+-------------------------------------*/
+.why-choose-us{
+    padding: 67px 0 0;
+}
+.why-choose-us .choose-text, 
+.why-choose-us .choose-text p{
+    margin-bottom: 10px;
+}
+.why-choose-us .choose-text p:last-child{
+    margin-bottom: 0;
+}
+.why-choose-us .signature{
+    margin-top: 10px;
+}
+.signature img{
+    margin-bottom: 10px;
+}
+.signature .name-desig h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0D7DFC;
+}
+.signature .name-desig p{
+    font-size: 16px;
+    color: #061028;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Responsibility
+-------------------------------------*/
+.responsibilities{
+    background: url('../images/responsibility-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 73px 0;
+    margin-bottom: 67px;
+}
+.single-responsibility h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.single-responsibility p{
+    font-size: 15px;
+    color: #fff;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Team
+-------------------------------------*/
+.home-2-team .section-title,
+.home-2-blog .section-title{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.home-2-team .section-title .sub-heading,
+.home-2-blog .section-title .sub-heading{
+    justify-content: center;
+}
+.home-2-team .section-title .sub-heading p,
+.home-2-blog .section-title .sub-heading p{
+    position: relative;
+}
+.home-2-team .section-title .sub-heading p,
+.home-2-blog .section-title .sub-heading p{
+    left: -2%;
+    padding-right: 11px;
+}
+.home-2-team .section-title .sub-heading p::after,
+.home-2-blog .section-title .sub-heading p::after{
+    position: absolute;
+    right: -32%;
+    bottom: 12px;
+    content: '';
+    background: #0D7DFC;
+    height: 2px;
+    width: 40px;
+}
+.single-team-home-2 img{
+    position: relative;
+}
+.single-team-home-2 .single-team-overlay{
+    position: absolute;
+    left: 5%;
+    top: 0;
+    background: #061028;
+    opacity: .6;
+    content: '';
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: .3s linear all;
+}
+.single-team-home-2:hover .single-team-overlay{
+    opacity: .6;
+}
+.single-team-home-2 .info-wrapper{
+    background: #0D7DFC;
+    padding: 20px;
+    width: 234px;
+    position: absolute;
+    bottom: -11%;
+    left: 11%;
+    z-index: 999999;
+}
+.single-team-home-2 .info-wrapper h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.single-team-home-2 .info-wrapper p{
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 5px;
+}
+.single-team-home-2 .hover-social{
+    background: #0D7DFC;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    visibility: hidden;
+}
+.single-team-home-2:hover .hover-social{
+    transition: .3s linear all;
+    visibility: visible;
+}
+.single-team-home-2 .hover-social ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.single-team-home-2 .hover-social ul li{
+    margin-bottom: 35px;
+}
+.single-team-home-2 .hover-social ul li:last-child{
+    margin-bottom: 0;
+}
+.single-team-home-2 .hover-social ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+.home-2-team .slick-slide{
+    height: 500px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Testimonial
+-------------------------------------*/
+.home-2-testimonial .section-title{
+    margin-bottom: 65px;
+}
+.home-2-testi-wrapper{
+    box-shadow: 0px 7px 55px rgba(52, 62, 97, 0.06);
+    padding: 52px 35px;
+}
+.home-2-testi-wrapper .quote-img{
+    margin-bottom: 42px;
+}
+.home-2-testi-wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #031031;
+    margin-bottom: 22px;
+}
+.home-2-testi-wrapper .testi-meta{
+    display: flex;
+    align-items: center;
+}
+.home-2-testi-wrapper .testi-meta .meta-text{
+    margin-left: 10px;
+}
+.home-2-testi-wrapper .testi-meta .meta-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #031031;
+}
+
+.home-2-testi-wrapper .testi-meta .meta-text p{
+    font-size: 14px;
+    color: #031031;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 brand
+-------------------------------------*/
+.home-2-brands{
+    background: url('../images/brand-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 105px 0 ;
+    margin: 135px 0 67px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 2 blogs
+-------------------------------------*/
+.home-2-blog .section-title .sub-heading p{
+    padding-right: 0;
+}
+.home-2-blog .blog-content p{
+    font-size: 14px;
+    color: #0D7DFC;
+    font-weight: 500;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home 2 Footer
+-------------------------------------*/
+
+.home-2-footer,
+.home-2-footer-copyright{
+    background: #061028;
+}
+.home-2-footer .r-mb h5,
+.home-2-footer h5,
+.home-2-footer p,
+.home-2-footer a,
+.home-2-footer-copyright p{
+    color: #fff;
+}
+.home-2-footer .d-end input{
+    background: #647589;
+    color: #fff;
+   
 }
