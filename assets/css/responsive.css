@@ -127,6 +127,39 @@
     .terms-list-wrapper h6{
         margin-right: 20px;
     }
+
+    /* home 2 navbar */
+    .skew-div-right::after{
+        display: none;
+    }
+
+    /* home 2 hero */
+    .home-2 .hero-bg .hero-text {
+        padding: 150px 30px 150px 81px;
+    }
+    .home-2 .hero-bg .hero-text h2 { 
+        font-size: 37px;
+        font-weight: 700;
+    }
+
+    /* home 2 portfolio */
+
+    .home-2-portfolio .portfolio-hovered .port-overlay,
+    .single-team-home-2 .single-team-overlay{
+        width: 82%;
+    }
+
+    /* home 2 responsibilities */
+    .r-none{
+        display: none;
+    }
+
+    /* home 2 team  */
+    .single-team-home-2 .hover-social{
+        right: 13%;
+    }
+
+ 
 }
 
 
@@ -314,6 +347,68 @@
     .terms-list-wrapper h6{
         margin-right: 20px;
     }
+
+    /* home 2 topbar */
+    .home-2__topbar .meta-wrapper {
+        margin-right: 17px;
+    }
+    .home-2__topbar .meta-wrapper svg{
+        margin-right: 0;
+    }
+
+    /* home 2 navbar */
+    .skew-div-right::after{
+        display: none;
+    }
+
+    /* home 2 hero */
+    .home-2 .hero-bg .hero-text {
+        padding: 150px 30px 150px 81px;
+    }
+    .home-2 .hero-bg .hero-text h2 { 
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .no-padding{
+        display: none;
+    }
+
+    /* home 2 about */
+    .home-2-about .r-image{
+        margin-top: 30px;
+    }
+
+    /* home-2 cta */
+    .home-2-cta .end-justify{
+        justify-content: flex-start;
+    }
+
+    /* home 2 home-2-facilities */
+    .home-2-facilities .r-b-image{
+        margin-bottom: 30px;
+    }
+
+    /* home 2 portfolio */
+
+    .home-2-portfolio .portfolio-hovered .port-overlay,
+    .single-team-home-2 .single-team-overlay{
+        width: 72%;
+    }
+
+    /* home 2 responsibilities */
+    .r-none{
+        display: none;
+    }
+
+    /* home 2 team  */
+    .single-team-home-2 .hover-social{
+        right: 23%;
+    }
+
+    /* home-2  testimonials */
+    .home-2-testimonial .slick-next.pull-right.slick-arrow{
+        display: none;
+    }
     
 }
 
@@ -412,7 +507,7 @@
     .appointment .section-title,
     .team .section-title,
     .faq .section-title,
-    .blog .section-title{
+    .blog .section-title{ 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -425,8 +520,16 @@
     .team .section-title h2,
     .faq .section-title h2,
     .blog .section-title h2,
-    .newsletter h5{
+    .newsletter h5
+    .section-title.home-2-section-title{
         text-align: center;
+    }
+
+    .section-title.home-2-section-title{
+        text-align: center;
+    }
+    .home-2-section-title .sub-heading{
+        justify-content: center;
     }
     .r-center{
         justify-content: center;
@@ -582,6 +685,91 @@
     }
     .terms-list-wrapper h6{
         margin-right: 20px;
+    }
+
+    
+    
+    /* home 2 topbar */
+    .home-2__topbar{
+        display: none;
+    }
+    .home-2__topbar .meta-wrapper svg{
+        margin-right: 0;
+    }
+
+    /* home 2 navbar */
+    .skew-div-right::after{
+        display: none;
+    }
+
+    /* home 2 hero */
+    .home-2 .hero-bg .hero-text {
+        padding: 120px 30px 120px 24px;
+    }
+    .home-2 .hero-bg .hero-text span{
+        font-size: 15px;
+    }
+    .home-2 .hero-bg .hero-text h2 { 
+        font-size: 30px;
+        line-height: 50px;;
+    }
+    .home-2 .hero-bg .hero-cta, .home-2-about .hero-cta, .home-2-cta .hero-cta{
+        padding: 14px 30px;
+    }
+    .no-padding{
+        display: none;
+    }
+
+    /* home-2 counter */
+    .s-mb{
+        margin-bottom: 30px;
+    }
+    .sm-center{
+        text-align: center;
+    }
+
+    /* home 2 about */
+    .home-2-about .r-image{
+        margin-top: 30px;
+    }
+
+    /* home-2 cta */
+    .home-2-cta .end-justify{
+        justify-content: flex-start;
+    }
+
+    /* home 2 home-2-facilities */
+    .home-2-facilities .r-b-image{
+        margin-bottom: 30px;
+    }
+
+    /* home 2 portfolio */
+
+    .home-2-portfolio .portfolio-hovered .port-overlay,
+    .single-team-home-2 .single-team-overlay{
+        width: 71%;
+    }
+
+    /* home 2 responsibilities */
+    .r-none{
+        display: none;
+    }
+
+    /* home 2 team  */
+    .single-team-home-2 .hover-social{
+        right: 24%;
+    }
+    .single-team-home-2 .info-wrapper{
+        left: 9%;
+    }
+
+    /* home-2  testimonials */
+    .home-2-testimonial .slick-next.pull-right.slick-arrow,
+    .home-2-testimonial .slick-prev.pull-left.slick-arrow{
+        opacity:0;
+    }
+    .container{
+        padding: 0 15px 0 15px;
     }
 }
 
@@ -798,4 +986,74 @@
     .terms-list-wrapper h6{
         margin-right: 20px;
     }
+
+    
+    /* home 2 topbar */
+    .home-2__topbar{
+        display: none;
+    }
+    .home-2__topbar .meta-wrapper svg{
+        margin-right: 0;
+    }
+
+    /* home 2 navbar */
+    .skew-div-right::after{
+        display: none;
+    }
+
+    /* home 2 hero */
+    .home-2 .hero-bg .hero-text {
+        padding: 150px 30px 150px 81px;
+    }
+    .home-2 .hero-bg .hero-text h2 { 
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .no-padding{
+        display: none;
+    }
+
+    /* home-2 counter */
+    .s-mb{
+        margin-bottom: 30px;
+    }
+
+    /* home 2 about */
+    .home-2-about .r-image{
+        margin-top: 30px;
+    }
+
+    /* home-2 cta */
+    .home-2-cta .end-justify{
+        justify-content: flex-start;
+    }
+
+    /* home 2 home-2-facilities */
+    .home-2-facilities .r-b-image{
+        margin-bottom: 30px;
+    }
+
+    /* home 2 portfolio */
+
+    .home-2-portfolio .portfolio-hovered .port-overlay,
+    .single-team-home-2 .single-team-overlay{
+        width: 95%;
+    }
+
+    /* home 2 responsibilities */
+    .r-none{
+        display: none;
+    }
+
+    /* home 2 team  */
+    .single-team-home-2 .hover-social{
+        right: 0;
+    }
+
+    /* home-2  testimonials */
+    .home-2-testimonial .slick-next.pull-right.slick-arrow,
+    .home-2-testimonial .slick-prev.pull-left.slick-arrow{
+        opacity:0;
+    }
+    
 }

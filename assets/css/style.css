@@ -2197,7 +2197,7 @@ button.slick-arrow svg {
     width: 164px;
     right: -74px;
     bottom: -38%;
-    z-index: 999;
+    z-index: 10;
     transform-origin: bottom left;
     -ms-transform: skew(-30deg, 0deg);
     -webkit-transform: skew(-30deg, 0deg);
@@ -2205,7 +2205,7 @@ button.slick-arrow svg {
 }
 .skew-div-right .site-logo a img{
     position: relative;
-    z-index: 999999;
+    z-index: 11;
 }
 .skew-div{
     background: #061028;
@@ -2242,7 +2242,7 @@ button.slick-arrow svg {
 .home-2 .hero-bg .hero-text{
     padding: 210px 103px 209px 81px;
     position: relative;
-    z-index: 999999;
+    z-index: 10;
 }
 .home-2 .hero-bg .hero-text span{
     color: #fff;

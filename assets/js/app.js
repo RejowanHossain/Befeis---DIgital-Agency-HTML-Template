@@ -117,7 +117,8 @@
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    centerMode: true,
                 }
             }
                 // You can unslick at a given breakpoint now by adding:
@@ -178,7 +179,8 @@
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    centerMode: true,
                 }
             }
                 // You can unslick at a given breakpoint now by adding:
@@ -327,7 +329,7 @@
             responsive: [{
                 breakpoint: 1060,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
@@ -345,7 +347,7 @@
             {
                 breakpoint: 950,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
@@ -354,14 +356,14 @@
             {
                 breakpoint: 700,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             }
