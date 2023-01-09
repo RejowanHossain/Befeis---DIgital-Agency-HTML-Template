@@ -4,31 +4,17 @@
         /*---------------------------------------------------
             Isotop filter course 
         ----------------------------------------------------*/
-        var $grid = $('.course-filter-items').isotope({
+
+        // init Isotope
+        var $grid = $('.port-filter').isotope({
             // options
         });
         // filter items on button click
-        $('.filter-course-menu').on('click', 'li', function () {
+        $('.tab-btn-wrapper').on( 'click', 'button', function() {
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({ filter: filterValue });
         });
-        // filter items on button active state
-        $('.filter-course-menu').on('click', 'li', function () {
-
-            const list = document.querySelectorAll(".filter-course-menu li");
-
-            list.forEach(function (e) {
-                e.addEventListener("click", function () {
-
-                    for (let x = 0; x < list.length; x++) {
-                        list[x].classList.remove("active-li-btn");
-                    }
-                    this.classList.add("active-li-btn");
-
-                })
-            })
-
-        });
+        
 
         $(".progress-bar").loading();
 
@@ -263,6 +249,67 @@
             autoplaySpeed: 2000,
             speed: 500,
             slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 1060,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 950,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+             /*---------------------------------------------------
+            home 3 testimonial carousel
+        ----------------------------------------------------*/
+        $('.home-3-testimonial-slider').slick({
+            dots: false,
+            infinite: true,
+            arrows: true,
+            prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
+            nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
+            autoplay: false,
+            autoplaySpeed: 2000,
+            speed: 500,
+            slidesToShow: 1,
             slidesToScroll: 1,
             responsive: [{
                 breakpoint: 1060,

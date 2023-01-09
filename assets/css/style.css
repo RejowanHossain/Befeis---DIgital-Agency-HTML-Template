@@ -2602,12 +2602,14 @@ button.slick-arrow svg {
        Home 2 Team
 -------------------------------------*/
 .home-2-team .section-title,
-.home-2-blog .section-title{
+.home-2-blog .section-title,
+.home-3-testi .section-title{
     text-align: center;
     margin-bottom: 65px;
 }
 .home-2-team .section-title .sub-heading,
-.home-2-blog .section-title .sub-heading{
+.home-2-blog .section-title .sub-heading,
+.home-3-testi .section-title .sub-heading{
     justify-content: center;
 }
 .home-2-team .section-title .sub-heading p,
@@ -2779,4 +2781,304 @@ button.slick-arrow svg {
     background: #647589;
     color: #fff;
    
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home 3 Topbar
+---------------------------------------------------------------------------------------*/
+.home-3-topbar{
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(100, 117, 137, 0.2);
+}
+.home-3-phone{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(100, 117, 137, 0.2);
+    padding-right: 30px;
+}
+.home-3-envelope{
+    border-right: 0;
+    margin-right: 0;
+}
+.home-3-topbar .justify-end,
+.home-3-header .justify-end{
+    display: flex;
+    justify-content: end;
+}
+.home-3-topbar .no-mr{
+    margin-right: 0;
+}
+.home-3-icons a{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-right: 23px;
+}
+.home-3-icons a:last-child{
+    margin-right: 0;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 Header
+---------------------------------------------------------------------------------------*/
+.home-3-header .main-menu ul li:first-child{
+    margin-left: 0;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 Hero
+---------------------------------------------------------------------------------------*/
+.home-3-hero .hero-img img{ 
+    width: 100%;
+}
+.home-3-hero .hero-text span{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0D7DFC;
+}
+.home-3-hero .hero-text h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 140%;
+    color: #031031;
+    margin-top: 10px;
+}
+.call-to-action{
+    background: #0D7DFC;
+    display: inline-block;
+    padding: 17px 39px;
+    color: #fff;
+    transition: .3s linear all;
+    margin-top: 20px;
+}
+
+.call-to-action:hover{
+    background: #0058bd;
+}
+.dark-blue{
+    background: #031031;
+    position: relative;
+    padding: 17px 0;
+}
+.home-3-consultation .inner-text-1,
+.home-3-consultation .inner-text-2{
+    display: flex;
+    align-items: center;
+}
+
+.dark-blue::before{
+    background: #031031;
+    content: '';
+    left: -13%;
+    top: 0;
+    height: 100%;
+    width: 80px;
+    position: absolute;
+}
+.dark-blue h3{
+    font-size: 90px;
+    font-weight: 700;
+    color: #0D7DFC;
+    opacity: .2;
+}
+.dark-blue h6{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: -48px;
+}
+.light-blue{
+    background: #0D7DFC;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.light-blue::after{
+    background: #0D7DFC;
+    content: '';
+    right: -12%;
+    top: 0;
+    height: 100%;
+    width: 78px;
+    position: absolute;
+}
+
+.light-blue h3{
+    font-size: 90px;
+    font-weight: 700;
+    color: #FBFCFD;
+    opacity: .2;
+}
+.light-blue h6{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: -48px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 About
+---------------------------------------------------------------------------------------*/
+.abt-lg-txt{
+    background: #FBFCFD;
+    border-left: 3px solid #0D7DFC;
+    padding: 27px 52px;
+    margin-top: 20px;
+}
+.abt-lg-txt h4{
+    color: #031031;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+}
+.abt-lg-txt h4 span{
+    color: #0D7DFC;
+    font-weight: 700;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 Facility
+---------------------------------------------------------------------------------------*/
+.facility-image{
+    margin-bottom: 45px;
+    margin-top: 67px;
+}
+.facility-image img{
+    width: 100%;
+}
+.h-3-facility-wrapper{
+    background: #FBFCFD;
+    padding: 208px 61px;
+}
+.h-3-mt{
+    margin-top: -34%;
+}
+.h-3-mt-65{
+    margin-top: -115px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 Portfolio
+---------------------------------------------------------------------------------------*/
+.home-3-portfolio .flex-items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+.home-3-portfolio .home-3-mb-0{
+    margin-bottom: 0;
+}
+.single-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #061028;
+    background: transparent;
+    border: none;
+    margin-right: 36px;
+}
+.single-btn:last-child{
+    margin-right: 0;
+}
+.tab-btn-wrapper .active-item{
+    color: #0D7DFC;
+}
+.home-3-portfolio .m-b-30,
+.home-3-who-we-grid .m-b-30{
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 CTA
+---------------------------------------------------------------------------------------*/
+.home-3-cta{
+    background: #FBFCFD;
+    margin-top: 38px;
+}
+.home-3-cta .cta-text h2,
+.home-3-cta .cta-text p{
+    color: #061028;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 Who we are
+---------------------------------------------------------------------------------------*/
+.who-we-img{
+    padding: 67px 0;
+}
+.home-3-who-we{
+    padding: 105px 60px;
+}
+.home-3-who-we-grid .single-facility{
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+}
+.home-3-who-we-grid .single-facility h5{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 team
+---------------------------------------------------------------------------------------*/
+.home-3-team{
+    padding-top: 67px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home 3 testimonials
+---------------------------------------------------------------------------------------*/
+.home-3-testi{
+    margin-top: 30px;
+}
+.home-3-testi .r-m-t-50{
+    margin-top: -45px;
+ }
+.home-3-testi .slick-prev.pull-left.slick-arrow,
+.home-3-testi .slick-next.pull-right.slick-arrow{
+    opacity: 0;
+}
+.home-3-testi .home-2-testi-wrapper{
+    background: transparent;
+    box-shadow: none;
+}
+.home-3-testi .home-2-testi-wrapper p:first-child{
+   text-align: center;
+   padding: 0px 100px;
+}
+.home-3-testi .home-2-testi-wrapper .testi-meta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+ }
+
+.home-3-testi .home-2-testi-wrapper .testi-meta .meta-text p{
+    margin-bottom: 0;
+ }
+
+ /*-------------------------------------------------------------------------------------
+       Home 3 blog
+---------------------------------------------------------------------------------------*/
+/* .home-3-blg{
+    margin-top: 30px;
+} */
+.home-3-blg .blog-wrapper .blog-img{
+    position: relative;
+}
+.home-3-blg .blog-wrapper .blg-meta{
+    background: #0D7DFC;
+    position: absolute;
+    right: 4%;
+    bottom: 48%;    
+    padding: 18px 25px;
+}
+.home-3-blg .blog-wrapper .blg-meta p{
+    font-style: 14px;
+    color: #fff;
+    font-weight: 500;
 }
