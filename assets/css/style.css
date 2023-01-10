@@ -9,13 +9,15 @@ default css
 topbar area
 header area
 hero area
-counter area
-course area
 about area
-filter area
-testimonial area
-instructor area
+services area
+counter area
+why choose us area
+protfolio area
 newsletter area
+team area
+testimonials area
+faq area
 blog area
 footer area
 --------------------------------------------------------------------------------------*/
@@ -32,7 +34,7 @@ footer area
 ---------------------------------------------------------------------------------------*/
 
 @font-face {
-    font-family: Font Awesome\ 5 Brands;
+    font-family: 'Font Awesome\ 5 Brands';
     font-style: normal;
     font-weight: 400;
     src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.eot);
@@ -40,7 +42,7 @@ footer area
 }
 
 @font-face {
-    font-family: Font Awesome\ 5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-style: normal;
     font-weight: 400;
     src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.eot);
@@ -48,7 +50,7 @@ footer area
 }
 
 @font-face {
-    font-family: Font Awesome\ 5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-style: normal;
     font-weight: 900;
     src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.eot);
@@ -1401,7 +1403,7 @@ button.slick-arrow svg {
     letter-spacing: 1px;
     color: #0D7DFC;
     text-decoration: underline;
-    font-size: 14;
+    font-size: 14px;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -2070,7 +2072,7 @@ button.slick-arrow svg {
     padding-right: 100px;
 }
 .policy-single h4{
-    font-weight: 25px;
+    font-size: 25px;
     font-weight: 600;
     color: #031031;
     margin-bottom: 10px;
@@ -3078,7 +3080,7 @@ button.slick-arrow svg {
     padding: 18px 25px;
 }
 .home-3-blg .blog-wrapper .blg-meta p{
-    font-style: 14px;
+    font-size: 14px;
     color: #fff;
     font-weight: 500;
 }
