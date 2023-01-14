@@ -5,6 +5,10 @@
             Isotop filter course 
         ----------------------------------------------------*/
 
+        $("#cta-input").click(function(){
+            $("#show-hide-submenu").toggleClass('show-input');
+        });
+
         // init Isotope
         var $grid = $('.port-filter').isotope({
             // options
@@ -66,7 +70,7 @@
             prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
             nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 1000,
             speed: 500,
             slidesToShow: 4,
             slidesToScroll: 1,
